@@ -19,8 +19,13 @@ body {
   font-weight: 400;
   font-size: 1 rem;
   line-height: 1.5;
-  color: green;
+  color: #fbfffb;
   width: 100%;
+}
+
+.body-div {
+  width: 80%;
+  margin: auto;
 }
 
 /* Header */
@@ -32,10 +37,42 @@ header {
 
 .nav {
   display: flex;
-  flex-direction: row;
   background-color: #fbfffb;
+  display: inline-block;
+}
+
+.list {
+  display: inline-block;
+}
+ul {
+  display: inline-block;
 }
 
 li {
   display: inline-block;
+  color: #266035;
+}
+
+.CTA-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.CTA-main h1 {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* !change button width */
+.button-large {
+  background-color: #fbfffb;
+  color: #266035;
+  padding: 1rem;
+  width: 60%;
+  margin: auto;
+  font-size: 2rem;
 }
